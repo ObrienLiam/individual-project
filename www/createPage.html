@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+     <link href="homePage.css" rel="stylesheet">
+    <header>Application Project</header>
+
+    <div class = "topnav">
+        <a href="homePage.html">Home</a>
+        <a class = "active" href="createPage.html">Create New User</a>
+        <a href="updatePage.html">Update Existing User</a>
+    </div>
+
+    <div id = "createPageBody">
+        <form id = "createUser" method="POST">
+            <p>
+                <label for = "first-name">First Name: </label>
+                <input
+                    id = "first-name"
+                    v-model = "first-name"
+                    type = "text"
+                    name = "first-name"
+                    placeholder="Enter first name"
+            </p>
+
+            <p>
+                <label for = "surname">Surame: </label>
+                <input
+                    id = "surname"
+                    v-model = "surname"
+                    type = "text"
+                    name = "surname"
+                    placeholder="Enter surname"
+            </p>
+        </form>
+    </div>
+
+</html>

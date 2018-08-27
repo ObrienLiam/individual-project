@@ -1,0 +1,64 @@
+header{
+    background-color: white;
+    font-style: normal;
+    font-family: "Lucida Sans Unicode";
+    font-size: 30px;
+}
+
+.topnav {
+    overflow: hidden;
+    position: sticky;
+    top: 30;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+
+.topnav a{
+    float: left;
+    font-family: 'Lucida Sans Unicode';
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: teal;
+}
+
+.topnav a.active {
+    background-color:black;
+    color: white; 
+}
+
+#createPageBody {
+    text-align: center;
+    font-family: 'Lucida Sans Unicode';
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+label, input {
+    display: inline-block;
+}
+label {
+    width: 30%;
+    text-align: right;
+}
+
+label+input {
+    width: 30%;
+    margin: 0 30% 0 4%;
+}
+
+input + input {
+    float: right;
+}
